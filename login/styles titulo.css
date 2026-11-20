@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(img/cyberpunk-neon-gradient-abstract-background-colorful-wallpaper-purple-blue-tones-perfect-trendy-modern-digital-402254657.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.container{
+    max-width: 1500px;
+    padding: 6%;
+    margin: 0 auto;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+}
+
+nav .logo{
+    font-size: 35px;
+    font-family: "Orbitron", sans-serif;
+    color:aqua;
+    font-weight: bold;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color:rgb(219, 16, 16);
+    border-radius: 30px;
+    transition: 0,6;
+}
+
+nav ul li a:hover{
+    background-color: aqua;
+}
+
+.text{
+   color:rgb(185, 174, 18)
+}
+
+
+
